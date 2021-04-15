@@ -1,6 +1,6 @@
 require 'telegram_bot'
 
-token = '1710661647:AAHUyMOSIoY9OnXELpqpZ8AumNS4Ofjwejg'
+token = '1710661647:AAHl56eseiGfXU-kH-hx6VY6P15RbQ5q1gI'
 
 bot = TelegramBot.new(token: token)
 
@@ -16,35 +16,35 @@ bot.get_updates(fail_silently: true) do |message|
       /PriceChart
       /Tip"
     when /DailyStats/i
-      reply.text = "Snek Stats 🐍 April 14th
+      reply.text = "Snek Stats 🐍 April 15th
 
-ViperSwap Circ MC: $33,094,731
-☝️+3.72%
-CoinGecko #(If listed): 669
-☝️ 4 spots
-ViperSwap TVL: $18,043,244
-☝️+9.38%
-MC : TVL  Ratio: 1.83
+ViperSwap Circ MC: $32,876,401
+👇-.66%
+CoinGecko #(If listed): 671
+👇 2 spots
+ViperSwap TVL: $18,450,489
+☝️+2.26%
+MC : TVL  Ratio: 1.78
 👇
-ViperPit TVL: $1,523,211
-☝️+1.65%
-xViper Value: 1.1469 $VIPER
-☝️+.12%
-$VIPER Value (via app): $1.08
-☝️
-$ONE Ratio: 1 : 7.31
-☝️+3.25%
-VenomDAO TG Members: 2,890
-☝️+1.01%
-Twitter Followers: 4,765
-☝️+.63%
-Reddit Members: 781
-☝️1.17%"
+ViperPit TVL: $1,495,720
+👇-1.80%
+xViper Value: 1.1479 $VIPER
+☝️+.09%
+$VIPER Value (via app): $1.11
+☝️+2.77%
+$ONE Ratio: 1 : 7.38
+☝️+.96%
+VenomDAO TG Members: 2,906
+☝️+.55%
+Twitter Followers: 4,808
+☝️+.90%
+Reddit Members: 790
+☝️1.15%"
     when /PriceChart/i
-      reply.text = "https://twitter.com/SnekStats/status/1380682418147844098/photo/1"
+      reply.text = "https://twitter.com/SnekStats/status/1382517105375936513?s=20"
       
     when /Tip/i
-      reply.text ="Thanks for tipping! SnekStats is continously working to bring more value to the Harmony and VenomDAO ecosystem! Your support is always appreciated🐍 
+      reply.text ="Thanks for tipping! SnekStats is continuously working to bring more value to the Harmony and VenomDAO ecosystem! Your support is always appreciated🐍 
       
       one1-style = one1dcy85036qy7jqvf8wrqef8smgkxyeeqsd5gq50 
       0x-style = 0x6E087A3e3a013D20312770C1949E1b458C4ce410"
